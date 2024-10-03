@@ -53,7 +53,8 @@ Checks: '*,
          -readability-magic-numbers,
          -readability-redundant-access-specifiers,
          -readability-simplify-boolean-expr,
-         -readability-uppercase-literal-suffix'
+         -readability-uppercase-literal-suffix,
+         -boost-use-ranges'
 
 CheckOptions:
   - key: hicpp-special-member-functions.AllowSoleDefaultDtor
